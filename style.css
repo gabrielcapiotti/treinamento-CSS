@@ -1,0 +1,277 @@
+main {
+    display: flex;
+    gap: 10px;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgba(87, 108, 78, 0.907);
+}
+
+.gandalf {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 0, 100);
+    justify-self: center;
+    border: 5px black solid;
+    border-radius: 5px;
+}
+
+.aragorn{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+}
+
+.arwen{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+}
+
+
+.legolas {
+    height: 300px;
+    width: 300px;
+    background-color: darkgreen;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.gimli {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(234, 242, 0);
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.sam {
+    height: 300px;
+    width: 600px;
+    background-color: rgb(115, 0, 255);
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border: 5px black solid;
+    border-radius: 5px;
+    
+}
+
+.frodo {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+  }
+  
+  .pippin {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    right: 0;
+  }
+  
+  .merry {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    bottom: 0;
+    left: 0;
+  }
+  
+  .gollum {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    bottom: 0;
+    right: 0;
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    }
+
+
+  .ordenus {
+    height: 100px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-color: rgb(80, 76, 155);
+    border: 5px black solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: end;
+    }
+
+
+    .libertus {
+        height: 100px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        background-color: rgb(80, 76, 155);
+        border: 5px black solid;
+        border-radius: 20px;
+        padding: 5px;
+        text-align: start;
+        overflow: hidden scroll;
+    }
+  
+  .conquist {
+    height: 600px;
+    width: 800px;
+    background-color: rgba(18, 83, 0, 0.308);
+    position: relative;
+    border: 5px black solid;
+    border-radius: 5px;
+  }
+
+  .fire {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+  }
+
+  .fire2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    top: 100px;
+    left: 0;
+    margin-top: 10px;
+  }
+
+  .fire3 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    top: 200px;
+    left: 0;
+    margin-top: 20px;
+  }
+
+  .fire4 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    top: 0px;
+    left: 100px;
+    margin-left: 10px;
+  }
+
+  .fire5 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    top: 0px;
+    left: 200px;
+    margin-left: 20px;
+  }
+
+  .fire6 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    top: 100px;
+    left: 100px;
+    margin: 10px;
+  }
+    
+  .water {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    bottom: 0;
+    right: 0;
+  }
+
+  .water2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    bottom: 100px;
+    right: 0;
+    margin-bottom: 10px;
+  }
+
+  .water3 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    bottom: 200px;
+    right: 0;
+    margin-bottom: 20px;
+  }
+
+  .water4 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    bottom: 0px;
+    right: 100px;
+    margin-right: 10px;
+  }
+
+  .water5 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    bottom: 0px;
+    right: 200px;
+    margin-right: 20px;
+  }
+
+  .water6 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    bottom: 100px;
+    right: 100px;
+    margin: 10px;
+  }
